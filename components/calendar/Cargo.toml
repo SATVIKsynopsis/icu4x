@@ -35,6 +35,7 @@ serde = { workspace = true, features = ["derive"], optional = true }
 icu_calendar_data = { workspace = true, optional = true }
 icu_locale = { workspace = true, optional = true }
 
+
 [dev-dependencies]
 icu_provider = { path = "../../provider/core", features = ["logging"] }
 icu_benchmark_macros = { path = "../../tools/benchmark/macros" }
