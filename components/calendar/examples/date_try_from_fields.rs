@@ -15,6 +15,7 @@ pub extern "C" fn main() {
 
 fn real_main() -> Result<(), DateFromFieldsError> {
     let cal = AnyCalendar::new(AnyCalendarKind::Iso);
+    
 
     let mut fields = DateFields::default();
     fields.extended_year = Some(2025);
